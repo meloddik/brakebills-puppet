@@ -7,5 +7,3 @@ defaults:
 hierarchy:
   - name: "Common defaults"
     path: "common.json"
-    data_hash: json_data
-
