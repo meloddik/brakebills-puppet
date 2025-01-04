@@ -1,0 +1,11 @@
+version: 5
+
+defaults:
+  datadir: data
+  data_hash: json_data
+
+hierarchy:
+  - name: "Common defaults"
+    path: "common.json"
+    data_hash: json_data
+
