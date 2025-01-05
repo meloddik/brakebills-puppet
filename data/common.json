@@ -89,5 +89,13 @@
   "pbg_ntp_params::version": "latest",
   "pbg_ntp_params2::start_at_boot": true,
   "pbg_ntp_params2::version": "latest",
-  "pbg_ntp_params2::service_state": "running"
+  "pbg_ntp_params2::service_state": "running",
+  "packages": [
+    {
+      "name": "r10k",
+      "provider": "gem",
+      "command": "/opt/puppetlabs/puppet/bin/gem",
+      "ensure": "5.0.0"
+    }
+  ]
 }
